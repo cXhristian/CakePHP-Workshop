@@ -1,0 +1,12 @@
+{
+    "name": "CakePHPBlogTutorial",
+    "require": {
+        "cakephp/cakephp": "2.5.*"
+    },
+    "require-dev": {
+        "cakephp/debug_kit": "2.2.*"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}
