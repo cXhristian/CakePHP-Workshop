@@ -53,6 +53,8 @@ class PostsController extends AppController {
     }
 
     public function delete($id) {
+        $this->Session->setFlash(__('fuck yo u brah'));
+        return $this->redirect(array('action' => 'index'));
         if($this->request->is('get')) {
             throw new MethodNotAllowedException();
         }
